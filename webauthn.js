@@ -2,7 +2,7 @@
  * webauthn.js module to perform cbor encoded webauthn registration
  *  and login rituals using axios.
  *
- * Licensed as-is, without warranty, under the GNU LGPL3
+ * Licensed as-is, without warranty, under the GNU LGPL2.1
  * Copyright &copy; 2020 Chris Volny
 **/
 
