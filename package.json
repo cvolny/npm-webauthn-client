@@ -1,5 +1,5 @@
 {
-  "name": "webauthn-client",
+  "name": "@cvolny/webauthn-client",
   "version": "1.0.0",
   "description": "Webauthn client that leverages CBOR encoding and Axios.",
   "main": "webauthn.js",
@@ -26,6 +26,6 @@
   "dependencies": {
     "axios": "^0.21.0",
     "buffer": "^6.0.3",
-    "cbor": "^5.1.0",
+    "cbor": "^5.1.0"
   }
 }
