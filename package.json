@@ -1,0 +1,25 @@
+{
+  "name": "webauthn-client",
+  "version": "1.0.0",
+  "description": "Webauthn client that leverages CBOR encoding and Axios.",
+  "main": "webauthn.js",
+  "scripts": {
+    "test": "true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cvolny/npm-webauthn-client.git"
+  },
+  "keywords": [
+    "fido2",
+    "webauthn",
+    "cbor",
+    "axios"
+  ],
+  "author": "Chris Volny",
+  "license": "LGPL-2.1",
+  "bugs": {
+    "url": "https://github.com/cvolny/npm-webauthn-client/issues"
+  },
+  "homepage": "https://github.com/cvolny/npm-webauthn-client#readme"
+}
