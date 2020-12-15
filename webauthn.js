@@ -163,12 +163,11 @@ export const webauthn_internal = (payload, success_callback, failure_callback,
     console.log('webauthn:', {'begin': beginurl, 'complete': completeurl});
     ax.post(beginurl, payload)
       .then(res => res.data)
-      .catch(error => failure_callback(error, begin_failure_code))
       .then(opts => credentials_callback(opts))
       .then(auth => {
         ax.post(completeurl, complete_context_callback(payload, auth))
           .then(res => success_callback(res))
           .catch(error => failure_callback(error, complete_failure_code));
-      });
+      }).catch(error => failure_callback(error, begin_failure_code));
 
 };
