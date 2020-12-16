@@ -29,7 +29,7 @@ login_2fa = (username, password) => {
 register = () => {
     const success = (res) => console.log('registered!');
     const failure = (res, code) => console.log('webauthn registration failed', code, res);
-    webauthn_login({}, success, failure);
+    webauthn_register({}, success, failure);
 };
 ```
 

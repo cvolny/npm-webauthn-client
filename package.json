@@ -1,6 +1,6 @@
 {
   "name": "@cvolny/webauthn-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Webauthn client that leverages CBOR encoding and Axios.",
   "main": "webauthn.js",
   "scripts": {
