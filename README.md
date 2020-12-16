@@ -1,4 +1,4 @@
-# npm-webauthn-client
+# @cvolny/webauthn-client
 Webauthn client leveraging Axios and CBOR encoding.
 
 I have request/response interceptors set on an axios instance inside of webauthn.js such that
